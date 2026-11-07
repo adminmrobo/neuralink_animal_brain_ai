@@ -36,7 +36,7 @@ nav.top a:hover{color:var(--text);background:var(--panel2)}
 /* 표지 */
 .cover{position:relative;margin:0;background:linear-gradient(160deg,#1b1533,#13141f 70%);aspect-ratio:16/9;max-height:48vh;width:100%;overflow:hidden}
 .cover canvas{position:absolute;inset:0;width:100%;height:100%}
-.cover-chip{position:absolute;left:16px;bottom:14px;padding:4px 10px;border-radius:999px;background:rgba(19,20,31,.72);font-size:13px}
+.cover-chip{position:absolute;left:16px;bottom:14px;padding:4px 10px;border-radius:999px;background:rgba(19,20,31,.72);font-size:13px}.cover:has(img.real){aspect-ratio:16/9;max-height:86vh}.cover img.real{z-index:2}.cover-chip{z-index:3}
 @media (max-width:600px){.cover{aspect-ratio:4/3;max-height:none}}
 /* 히어로 */
 header.hero{position:relative;padding:40px 0 30px;overflow:hidden}
@@ -179,9 +179,9 @@ footer{border-top:1px solid var(--rule);padding:30px 0 90px;color:var(--muted);f
 </nav>
 
 <!-- lab-cover -->
-<header class="cover" id="cover" data-img="cover_4" role="img" aria-label="밤의 연구실 블록 들판에서 네 캐릭터가 초파리·까마귀·돼지·원숭이 몹과 자율주행차를 바라보는 대체 표지">
+<header class="cover" id="cover" data-img="cover_4" role="img" aria-label="밤의 블록 들판에서 초파리 연구원·까마귀·돼지(머리에 동전 모양 칩)·원숭이에게서 나온 네 빛줄기가 박사의 손끝에서 하나로 모여 화살표가 되어 주판봇에게 향하는 표지">
   <canvas id="coverCv" aria-hidden="true"></canvas>
-  <img class="real" src="assets/img/cover_4.webp" width="1600" height="900" alt="" fetchpriority="high" decoding="async" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%">
+  <img class="real" src="assets/img/cover_4.webp" srcset="assets/img/cover_4_960.webp 960w, assets/img/cover_4.webp 1600w" sizes="100vw" width="1600" height="900" alt="" fetchpriority="high" decoding="async" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%">
   <span class="cover-chip">초파리 특별편 · 4</span>
 </header>
 <!-- /lab-cover -->

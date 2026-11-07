@@ -1,5 +1,7 @@
 # 뉴럴링크는 왜 돼지와 원숭이 뇌에 칩을 심었나
 
+![표지 — 블록 들판의 네 캐릭터와 초파리·까마귀·돼지·원숭이, 신호가 주판봇으로 모인다](assets/img/cover_4.webp)
+
 **AI 연구실 해설 대시보드 · 초파리 특별편 4** — 글 · 안상선 ((주)M-Robo 대표)
 
 일론 머스크가 세운 뉴럴링크가 돼지(2020)·원숭이(2021) 뇌에 칩을 심은 실험을, 초파리 배선도 시뮬레이션, 까마귀 뇌 연구, 테슬라 자율주행·YOLO, 자율비행 드론 설계까지 **한 줄의 파이프**(감각 → 인코더 → 뇌/모델 → 해독기 → 행동)로 나란히 놓고 직접 돌려 보는 인터랙티브 한국어 해설입니다. 박사 · 조수(하루) · 초파리 연구원 · 주판봇이 진행합니다.
@@ -38,8 +40,8 @@
 
 | 키 | 파일 | 지시문 | 상태 |
 |---|---|---|---|
-| `cover_index` | `assets/img/cover_index.webp` | [prompts/COVER_00_index.md](prompts/COVER_00_index.md) | 대기 (대체 표지 사용 중) |
-| `cover_4` | `assets/img/cover_4.webp` | [prompts/COVER_4_neuralink.md](prompts/COVER_4_neuralink.md) | 대기 (대체 표지 사용 중) |
+| `cover_index` | `assets/img/cover_index.webp` | [prompts/COVER_00_index.md](prompts/COVER_00_index.md) | 완료 (1600·960 WebP) |
+| `cover_4` | `assets/img/cover_4.webp` | [prompts/COVER_4_neuralink.md](prompts/COVER_4_neuralink.md) | 완료 (1600·960 WebP) |
 | 장면·컷 5장 | — | [prompts/IMG_4_neuralink.md](prompts/IMG_4_neuralink.md) | 대기 (페이지에 자리만 있음) |
 
 표지는 WebP 1600×900(220 KB 이하)으로 위 경로에 올리면 페이지가 자동으로 바꿔 씁니다. 그림이 없어도 페이지는 완성 상태입니다.
